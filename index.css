@@ -1,14 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./bck_image.jpg") ;
+    background-size: cover;
+}
 main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    height: 100%;
+    width: 50%;
 }
 iframe{
     border: none;
 }
 section{
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -16,7 +25,9 @@ section{
     border: solid black;
     width: 300px;
     height: 100px;
-
 }
+
+
+
 
 
