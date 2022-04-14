@@ -9,13 +9,24 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <section>
-        <label for="data">Digite uma data</label>
-        <input type="date" id = "data">
-        <input type="submit" id="submit">
-    </section>
-    <img src="" alt="" id="img">
-    <video src="" id="video"></video>
+    <main>
+        <h2>APOD</h2>
+
+        <section>
+            <label for="data">Digite uma data</label>
+            <input type="date" id = "data">
+            <input type="submit" id="submit">
+        </section>
+
+        <div class="moldura">
+            <img src="" alt="" id="img">
+            <iframe width="1080" height="720"
+            src="" id="video">
+            </iframe> 
+        </div>
+
+    </main>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./index.js"></script>
 </body>

@@ -7,9 +7,10 @@ $("#submit").click(function (event){
         success: function (resposta) {
             if (resposta.media_type == "image"){
                 $("#img").attr("src", resposta.url)
+                console.log(resposta.url)
             } else if (resposta.media_type == "video"){ 
+                console.log(resposta.url)
                 $("#video").attr("src", resposta.url)
-                $("#video")[0].load()
             }
         },
     }

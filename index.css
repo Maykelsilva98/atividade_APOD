@@ -1,9 +1,11 @@
-body{
+main{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: auto;
+}
+iframe{
+    border: none;
 }
 section{
     margin-top: 100px;
@@ -12,7 +14,9 @@ section{
     justify-content: space-between;
     align-items: center;
     border: solid black;
-    width: 20%;
-    height: 20vh;
+    width: 300px;
+    height: 100px;
 
 }
+
+
